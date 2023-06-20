@@ -1,0 +1,101 @@
+/* Reset some default styles in browsers */
+body, h1, h2, p, ul {
+    margin: 0;
+    padding: 0;
+}
+
+/* Define a global font */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+/* Define a background color */
+body {
+    background-color: #f4f4f4;
+}
+
+/* Style the header */
+header {
+    background: #354458;
+    color: #ffffff;
+    text-align: center;
+    padding: 1em 0;
+}
+
+/* Style the navigation menu */
+nav ul {
+    padding: 1em;
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Style the hero section */
+.hero {
+    background-color: #6a8caf;
+    color: #ffffff;
+    text-align: center;
+    padding: 3em 0;
+}
+
+.hero h1 {
+    font-size: 2.5em;
+    margin-bottom: 0.5em;
+}
+
+.hero p {
+    font-size: 1.2em;
+    margin-bottom: 1.5em;
+}
+
+.btn {
+    display: inline-block;
+    background-color: #354458;
+    color: #ffffff;
+    padding: 0.75em 1.5em;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Style the featured games section */
+.featured-games {
+    padding: 2em;
+    text-align: center;
+}
+
+.featured-games h2 {
+    font-size: 2em;
+    margin-bottom: 1.5em;
+}
+
+.game {
+    margin: 1em;
+}
+
+.game img {
+    max-width: 100%;
+    height: auto;
+}
+
+.game h3 {
+    font-size: 1.5em;
+    margin: 0.5em 0;
+}
+
+/* Style the footer */
+footer {
+    background-color: #354458;
+    color: #ffffff;
+    text-align: center;
+    padding: 1em 0;
+}
