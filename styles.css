@@ -1,51 +1,57 @@
-/* Reset some default styles in browsers */
-body, h1, h2, p, ul {
+/* Reset */
+* {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
-/* Define a global font */
+/* Global */
 body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
-}
-
-/* Define a background color */
-body {
     background-color: #f4f4f4;
 }
 
-/* Style the header */
-header {
-    background: #354458;
-    color: #ffffff;
-    text-align: center;
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+/* Header */
+.header {
+    background-color: #333;
+    color: #fff;
     padding: 1em 0;
 }
 
-/* Style the navigation menu */
-nav ul {
-    padding: 1em;
+.logo a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.5em;
+}
+
+.nav ul {
+    display: flex;
     list-style: none;
 }
 
-nav ul li {
-    display: inline;
+.nav ul li {
     margin-right: 20px;
 }
 
-nav ul li a {
-    color: #ffffff;
+.nav ul li a {
+    color: #fff;
     text-decoration: none;
     font-weight: bold;
 }
 
-/* Style the hero section */
+/* Hero Section */
 .hero {
-    background-color: #6a8caf;
-    color: #ffffff;
-    text-align: center;
+    background-color: #4CAF50;
+    color: #fff;
     padding: 3em 0;
+    text-align: center;
 }
 
 .hero h1 {
@@ -60,14 +66,14 @@ nav ul li a {
 
 .btn {
     display: inline-block;
-    background-color: #354458;
-    color: #ffffff;
+    background-color: #333;
+    color: #fff;
     padding: 0.75em 1.5em;
     text-decoration: none;
     font-weight: bold;
 }
 
-/* Style the featured games section */
+/* Featured Games Section */
 .featured-games {
     padding: 2em;
     text-align: center;
@@ -92,10 +98,10 @@ nav ul li a {
     margin: 0.5em 0;
 }
 
-/* Style the footer */
-footer {
-    background-color: #354458;
-    color: #ffffff;
+/* Footer */
+.footer {
+    background-color: #333;
+    color: #fff;
     text-align: center;
     padding: 1em 0;
 }

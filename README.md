@@ -1,2 +1,4 @@
-# InterfacesWebCespedesQuezada2023
-Proyecto del ramo Interfaces Web
+# Proyecto del ramo Interfaces Web
+## Integrantes
+- Carlos Céspedes
+- Matias Quezada
