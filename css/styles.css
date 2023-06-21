@@ -137,3 +137,31 @@ body {
     text-align: center;
     padding: 1em 0;
 }
+
+/* Media Queries for Responsiveness */
+@media screen and (max-width: 768px) {
+    .container {
+        padding: 0 10px;
+    }
+
+    .nav {
+        flex-direction: column;
+        align-items: center;
+        margin-top: 0;
+        margin-left: 0;
+    }
+
+    .nav ul {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .nav ul li {
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+
+    .games {
+        justify-content: center;
+    }
+}
