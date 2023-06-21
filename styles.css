@@ -24,11 +24,25 @@ body {
     color: #fff;
     padding: 1em 0;
 }
+.logo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: left;
+    margin-top: -35px;
+    margin-left: 60px;
+    
+}
 
 .logo a {
     color: #fff;
     text-decoration: none;
     font-size: 1.5em;
+
 }
 
 .nav ul {
@@ -49,9 +63,10 @@ body {
 /* Hero Section */
 .hero {
     background-color: #4CAF50;
-    color: #fff;
+    color: #000000;
     padding: 3em 0;
     text-align: center;
+    background-image: url(images/herobg.jpg);
 }
 
 .hero h1 {
@@ -83,9 +98,22 @@ body {
     font-size: 2em;
     margin-bottom: 1.5em;
 }
+.games{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
 
 .game {
-    margin: 1em;
+    display: flex;
+      flex-direction: column;
+      align-items: center;
+      width: 200px;
+      padding: 10px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      margin: 10px;
 }
 
 .game img {
